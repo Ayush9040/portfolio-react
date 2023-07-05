@@ -73,7 +73,7 @@ export const personalInfo = [
   {
     id: 3,
     title: 'Age : ',
-    description: '25 Years',
+    description: '26 Years',
   },
 
   {
@@ -122,26 +122,26 @@ export const personalInfo = [
 export const stats = [
   {
     id: 1,
-    no: '12+',
+    no: '6 months',
     title: 'Years of <br /> Experience',
   },
 
   {
     id: 2,
-    no: '97+',
+    no: '12+',
     title: 'Completed <br /> Projects',
   },
 
   {
     id: 3,
-    no: '81+',
+    no: '8+',
     title: 'Happy <br /> Customers',
   },
 
   {
     id: 4,
-    no: '53+',
-    title: ' Awards <br /> Won',
+    no: '3+',
+    title: ' Achievements <br />',
   },
 ];
 
@@ -150,55 +150,67 @@ export const resume = [
     id: 1,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2018 - PRESENT',
-    title: 'Web Developer <span> Envato </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,',
+    year: 'Dec 2022 - Mar 2023',
+    title: 'FrontEnd Developer Intern <span> Exdera </span>',
+    desc: 'Developing and implementing highly responsive user interface components using React concepts.',
   },
 
   {
     id: 2,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2013 - 2018',
-    title: 'UI/UX Designer <span> Themeforest </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
+    year: 'Sep 2022 - Dec 2022',
+    title: 'C++ Developer Intern <span> Ineuron.ai </span>',
+    desc: 'Worked with C++ team and contributed to public libraries like Analytics Geometry.',
   },
 
+  // {
+  //   id: 3,
+  //   category: 'experience',
+  //   icon: <FaBriefcase />,
+  //   year: '2005 - 2013',
+  //   title: 'Consultant <span> Videohive </span>',
+  //   desc: 'Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur elit, sed do eiusmod tempor duntt',
+  // },
   {
     id: 3,
-    category: 'experience',
-    icon: <FaBriefcase />,
-    year: '2005 - 2013',
-    title: 'Consultant <span> Videohive </span>',
-    desc: 'Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur elit, sed do eiusmod tempor duntt',
+    category: 'education',
+    icon: <FaGraduationCap />,
+    year: '2023',
+    title: 'React JS <span> Namaste Dev </span>',
+    desc: 'Learn JS library React in depth',
   },
 
   {
     id: 4,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2015',
-    title: 'Engineering Degree <span> Oxford University </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore',
+    year: '2022',
+    title: 'C, C++ and DSA Bootcamp <span> Ineuron </span>',
+    desc: 'Learn programming in C, C++ and worked on problem solving skills.',
   },
 
   {
     id: 5,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2012',
-    title: 'Master Degree <span> KIEV University </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
+    year: '2021',
+    title: 'Web Development <span> Edyoda University </span>',
+    desc: 'Learn basic fundamentals of web with technologies like HTML5, CSS3, JavaScript.',
   },
 
   {
     id: 6,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2009',
-    title: 'Bachelor Degree <span> Tunis High School </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore',
+    year: '2015 - 2018',
+    title: 'BBA <span> Bharti Vidyapeeth University </span>',
+    desc: 'Completed BBA in Finance specilization in year 2018.',
   },
+
+  
+
+  
 ];
 
 export const skills = [
@@ -229,7 +241,7 @@ export const skills = [
   {
     id: 5,
     title: 'Wordpress',
-    percentage: '95',
+    percentage: '85',
   },
 
   {

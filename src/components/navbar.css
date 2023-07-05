@@ -22,7 +22,7 @@
 }
 
 .dark-theme .nav__link {
-  border-color: hsl(0, 0%, 20%);
+  border-color: hsl(0, 0%, 0%);
 }
 
 .nav__icon, .nav__name{
@@ -142,4 +142,20 @@
     color: var(--text-white);
   }
 
+}
+
+@media screen and (max-width: 576px) {
+  .nav__toggle {
+    top: 20px;
+    right: 15px;
+  }
+
+  .nav__link {
+    column-gap: 20px;
+  }
+
+  .nav__icon,
+  .nav__name {
+    font-size: var(--h3-font-size);
+  }
 }
